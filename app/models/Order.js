@@ -9,7 +9,7 @@ class Order extends Model { //creo la herencia del modelo
     static get jsonSchema(){ // especifica la estructura de la tabla
         return {
             type: 'object',//object para un dato,array para una lista
-            required: ['total_amount','deProducts'],//campos requeridos
+            required: ['total_amount'],//campos requeridos
             properties: { // estructura de los campos
                 id: {type: 'integer'},
                 total_amount: {type: 'number'},
