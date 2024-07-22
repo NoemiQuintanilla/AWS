@@ -2,7 +2,7 @@ const { Model } =require('objection'); //llamar model de la libreria objection (
 
 class PaymentMethods extends Model { //creo la herencia del modelo
     static get tableName(){ // especifica el nombre de la tabla
-        return 'paymentmethods';
+        return 'paymentMethods';
     }
 
     static get jsonSchema(){ // especifica la estructura de la tabla
