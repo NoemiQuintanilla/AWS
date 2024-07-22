@@ -10,7 +10,7 @@ class Customer extends Model { //creo la herencia del modelo
             type: 'object',//object para un dato,array para una lista
             required: ['name','email'],//campos requeridos
             properties: { // estructura de los campos
-                id: {type: 'interger'},
+                id: {type: 'integer'},
                 name: {type: 'string', minLength: 1},
                 email: {type: 'string', format: 'email'},
                 age: {type: 'integer'}
