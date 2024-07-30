@@ -13,7 +13,9 @@ class Customer extends Model { //creo la herencia del modelo
                 id: {type: 'integer'},
                 name: {type: 'string', minLength: 1},
                 email: {type: 'string', format: 'email'},
-                age: {type: 'integer'}
+                age: {type: 'integer'},
+                direccion: {type: 'string'},
+                telefono: {type: 'string'}
 
             }
         };

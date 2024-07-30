@@ -9,6 +9,7 @@ exports.up = function(knex) {
         table.string('name').notNullable();
         table.string('email').notNullable().unique();
         table.timestamp(true,true);
+        
     });
 };
 
