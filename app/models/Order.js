@@ -17,8 +17,7 @@ class Order extends Model { //creo la herencia del modelo
                 shipping_date: {type: 'string' , format: 'date'},
                 shipping_address: {type: 'string' , format: 'date'},
                 direccion: {type: 'string'},
-                deProducts: {type: 'integer'}
-
+                
             }
         };
     }

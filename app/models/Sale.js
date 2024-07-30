@@ -16,7 +16,7 @@ class Sale extends Model { //creo la herencia del modelo
                 active: {type: 'boolean'},
                 fecha: {type: 'string' , format: 'date'},
                 direccion: {type: 'string'},
-                deOrders: {type: 'integer'}
+               
 
             }
         };

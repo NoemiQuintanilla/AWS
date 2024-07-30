@@ -16,9 +16,7 @@ class Invoice extends Model { //creo la herencia del modelo
                 fecha: {type: 'string', format: 'date'},
                 numProductos: {type: 'integer'},
                 descripcion: {type: 'string'},
-                deCustomer: {type: 'integer'},
-                dePaymentMethods: {type: 'integer'},
-                deSales: {type: 'integer'}
+              
 
             }
         };
